@@ -21,6 +21,6 @@ def answer(message):
         result = eval(message.text)
     # Common answer for all other messages
     except Exception as e:
-                result = "I don't understand you. Set a valid command."
+                result = "I don't understand you. Send a valid command."
     # Sending message
     bot.send_message(message.chat.id, result)
