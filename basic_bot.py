@@ -5,9 +5,8 @@ bot = telebot.TeleBot(token)
 
 # Greeting message
 @bot.message_handler(commands=["start"])
-def start_spam(message):
+def greet(message):
     bot.send_message(message.chat.id, "Hey! I'm a really simple chat bot.")
-users = []
 
 # Continiously updating for new incoming messages
 def update_messages():
