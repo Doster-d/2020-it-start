@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Secret file
+
+secret.py
+
+# Garbage
+
+.vscode
+
+# tesseract library (install from https://github.com/UB-Mannheim/tesseract/wiki , folder name - tes)
+tes
